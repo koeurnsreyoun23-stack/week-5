@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<style>
+     * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     .container {
+          width: 400px;
+          padding: 10px;
+          background-color: rgb(118, 118, 235);
+          margin: auto;
+     }
+     .header, 
+     .nav,
+     .footer,
+     .section {
+          width: 100%;
+          background-color: rgb(201, 211, 253);
+          padding: 10px;
+          margin-bottom: 10px;
+     }
+     .article {
+          display: flex;
+          justify-content: space-between;
+          color: black;
+          margin-bottom: 10px;
+     }
+     .left-side {
+          background-color: pink;
+          width: 60%;
+          padding: 5px;
+     }
+     .right-side {
+          width: 35%;
+     }
+     .article-header {
+          background-color: rgb(185, 121, 246);
+          margin: 10px;
+          padding: 5px;
+          color: white;
+     }
+     .main {
+          background-color: rgb(185, 121, 246);
+          padding: 50px 5px;
+          margin: 10px;
+          color: white;
+     }
+     .right-side {
+          background-color: pink;
+          display: flex;
+          padding-left: 5px;
+          color: black;
+          align-items: center;
+     }
+
+     .sit {
+          padding: 30px 10px;
+     }
+     
+</style>
+<body>
+     <div class="container">
+          <div class="header">Page Header</div>
+          <div class="nav">Nac</div>
+          <div class="article">
+               <div class="left-side">Article
+                    <div class="article-header">Article Header</div>
+                    <div class="main">Main</div>
+               </div>
+               <div class="right-side">Aside</div>
+          </div>
+          <div class="section sit">Section</div>
+          <div class="footer">Footer</div>
+     </div>
+</body>
+</html>

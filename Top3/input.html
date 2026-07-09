@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<style>
+/* styled-input */
+.styled-input{
+    box-shadow:2px 2px 10px rgb(0, 255, 51);
+    width: 500px;
+    height: auto;
+    margin: auto; 
+    border: 2px black solid;
+}
+.letter,.letter-left,.letter-right,.combine,.submit {
+    border: 2px rgb(192, 178, 178) solid;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(192, 178, 178);
+    cursor: text;
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.gg {
+    width: 250px;
+}
+.letter-left {
+    width: 400px;
+}
+.letter-right {
+    border-right: none;
+}
+.head {
+    width: 350px;
+}
+.search-left {
+    width:500px;
+    border-right: none;
+}
+.https-right {
+    border: none;
+    margin-right: 0px;
+}
+.combine {
+    width: 300px;
+    border-right: none;
+}
+.submit {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #498ef0;
+    color: white;
+    border: none;
+}
+/* input */
+
+.search-box{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    width: 350px;
+    height: 35px;
+    display: flex;
+    border: 2px solid rgb(192, 178, 178);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.https{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    border-right: 2px solid rgb(192, 178, 178);
+    font-size: 16px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+input::placeholder{
+    color: rgb(192, 178, 178);
+}
+
+button{
+    width: 15% ;
+    border: none;
+    background:#1677ff;
+    border-left: 2px solid rgb(192, 178, 178);
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+
+button:hover{
+    background: rgb(192, 178, 178);
+}
+.i {
+    background-color: #1677ff;
+    color: white;
+}
+.g {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    width: 400px;
+    height: 35px;
+    display: flex;
+    border: 2px solid rgb(192, 178, 178);
+    border-radius: 10px;
+    overflow: hidden;
+}
+</style>
+<body>
+    <!-- styled-input -->
+    <div class="styled-input">
+        <div class="letter gg">26888888</div>
+        <div class="letter-left">0571<div class="letter-right">26888888</div>
+            </div>
+    <div class="search-box">
+    <div class="https">https://</div>
+    <input type="text" placeholder="input search text">
+    <button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+
+    </div>
+<div class="search-box g">Combine input and button
+    <input type="text">
+    <button>Submit</button>
+
+    </div>
+    </div>
+</body>
+</html>

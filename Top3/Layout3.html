@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<style>
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     .container {
+          background-color: rgb(202, 237, 202);
+          padding: 10px;
+          margin: auto;
+     }
+     /* right */
+     .article {
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: space-between;
+     }
+     .article-header,.main {
+          background-color: rgb(248, 248, 117);
+          margin-bottom: 10px;
+          padding: 5px;
+          margin: 10px;
+     }
+     .page-header,.nav,.section,.footer{
+          background-color: pink;
+          padding: 10px;
+          margin-bottom: 10px;
+     }
+     
+     /* left */
+     .left-article {
+          background-color: rgb(241, 200, 124);
+          width: 60%;
+          padding: 10px;
+     }
+     .right-article,.left1-article{
+          background-color: rgb(241, 200, 124);
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          padding: 5px;
+          width: 100px;
+     }
+     .won {
+          width: 60%;
+     }
+</style>
+<body>
+     <div class="container">
+          <div class="page-header">Page Header</div>
+          <div class="nav">Nav</div>
+          <div class="article">
+               <div class="left-article">Article
+               <div class="article-header">Article Header</div>
+               <div class="main">Main</div>
+          </div>
+               <div class="left1-article">Aside</div>
+               <div class="right-article">Aside</div>
+          </div>
+          <div class="section won">Section</div>
+          <div class="footer">Footer</div>
+
+     </div>
+</body>
+</html>

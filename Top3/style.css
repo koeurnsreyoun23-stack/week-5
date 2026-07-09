@@ -1,0 +1,279 @@
+.basicbuttons {
+    height: auto;
+    width: 500px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgb(131, 179, 235);
+}
+
+.text {
+     border: none;
+     background-color: white;
+     cursor: pointer;
+}
+
+.link {
+     border: none;
+     background-color: white;
+     color: blue;
+     cursor: pointer;
+}
+/* rounded button */
+
+.rounded {
+    height: auto;
+    width: 400px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgb(53, 239, 127);
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1677ff;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.search-w {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    cursor: pointer;
+    background-color: white;
+    border: 1px rgb(142, 122, 122) solid;
+}
+.search-b {
+    height: 30px;
+    width: 25%;
+    border: none;
+    background-color: #1677ff;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.search-b1 {
+    height: 30px;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px rgb(142, 122, 122) solid;
+    cursor: pointer;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 5 5px;
+}
+.j {
+    border: 1px gray dashed;
+    color: with;
+}
+.k {
+    border: 1px gray dashed;
+}
+.v {
+    border-radius: 15%;  
+}
+
+/* blockbutton */
+.blockButtons {
+    height: auto;
+    width: 400px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 10px blueviolet;
+}
+
+.size {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.primary {
+    background-color: #1677ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary i {
+    margin-right: 5px;
+}
+
+.primary:hover {
+    /* opacity: 80%; */
+    background-color: #498ef0;
+}
+
+.default {
+    border-radius: 5px;
+    border: 1px rgb(142, 122, 122) solid;
+    cursor: pointer;
+    background-color: white;
+}
+
+.default:hover {
+    border: 2px #498ef0 solid;
+    color: #498ef0;
+}
+
+.dashed {
+    border-radius: 5px;
+    border: 1px gray dashed;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dashed:hover {
+    border: 1px #498ef0 dashed;
+    color: #498ef0;
+}
+
+.disabled {
+    border-radius: 5px;
+    border: 1px gray solid;
+    background-color: #f5f5f5;
+    opacity: 50%;
+}
+
+.disabled:hover {
+    cursor: not-allowed;
+}
+/* horizontal */
+.horizontal {
+    box-shadow: 2px 2px 10px rgb(238, 244, 61);
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    border: 2px black solid;
+}
+
+.horizontal button {
+    background-color: #1677ff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: -4px;
+    color: white;
+}
+
+.horizontal button:hover {
+    background-color: #508bdf;
+}
+
+.left {
+   border-radius: 5px 0 0 5px;
+}
+
+.right {
+   border-radius: 0 5px 5px 0;
+}
+/* .horizontal1 */
+.won {
+    box-shadow: 2px 2px 10px rgb(244, 61, 61);
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    border: 2px black solid;
+    
+}.won button {
+    background-color: white;
+    border: none;
+    padding: 5px 15px;
+    margin-left: -4px;
+    color: black;
+    border: 1px black solid;
+    cursor: pointer;
+}
+.won button:hover {
+    background-color: #a3a5a4;
+    color: white;
+}
+
+.left {
+   border-radius: 5px 0 0 5px;
+}
+
+.right { 
+   border-radius: 0 5px 5px 0;
+}
+
+/* :vertical */
+.won1 {
+    box-shadow: 2px 2px 10px rgb(244, 125, 196);
+    margin: auto;
+    padding: 20px;
+    width: 60px;
+    height: 160px;
+    border: 2px black solid;
+}.won1 button {
+    background-color: #1677ff;
+    border: none;
+    padding: 5px 15px;
+    margin-left: -4px;
+    color: white;
+    cursor: pointer;
+}
+.won1 button:hover {
+    background-color: #9ba8fd;
+    color: white;
+}
+.btn {
+    border-radius: 5px;
+}
+/* Input */
+.input-box {
+    box-shadow: 2px 2px 10px rgb(244, 124, 196);
+    margin: auto;
+    width: 500px;
+    height: auto;
+    border: 2px black solid;
+}
+.put {
+    border: 2px rgb(192, 178, 178) solid;
+    width: 450px;
+    height: 25px;
+    margin: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: rgb(192, 178, 178);
+    cursor: text;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* icon-input */
+.incon-input {
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 10px red;
+    margin: auto;
+    border: 2px black solid;
+}
+.large-size,.default-size,.small-size {
+    border: 2px rgb(192, 178, 178) solid;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(192, 178, 178);
+    cursor: text;
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.a {
+    height: 20px;
+}
+.b {
+    height: 15px;
+}
